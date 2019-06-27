@@ -31,7 +31,7 @@ $ cd libdecnumber
 $ mkdir build
 $ cd build
 #使用clang
-$ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=../linux.toolchain.cmake
+$ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release 
 #使用gcc
 $ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release 
 $ make

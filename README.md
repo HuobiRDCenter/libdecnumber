@@ -31,9 +31,9 @@ $ cd libdecnumber
 $ mkdir build
 $ cd build
 #使用clang
-$ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release 
+$ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_COMPILER_TYPE=CLANG
 #使用gcc
-$ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release 
+$ cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_COMPILER_TYPE=GCC
 $ make
 $ sudo make install
 ````
